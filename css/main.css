@@ -1,0 +1,48 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.textBody{
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 36px;
+}
+
+.textPrimario{
+	font-family: 'Pacifico', cursive;
+}
+.separador{
+	height: 50px;
+	background-color: red;
+}
+
+body{
+	text-align: justify;
+	padding-top: 50px;
+    padding-bottom: 20px;
+}
+.redes{
+	display:scroll;
+	position:fixed;
+	bottom:185px;
+	right:0px;
+}
+.multimesdia{
+	background-color: #e6e6e6;
+}
+.fin7{
+	background-color:#339966;
+}
+
+
+
+
+
+
+
+
+
+
+
+
