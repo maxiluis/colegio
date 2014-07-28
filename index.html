@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/csshake.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css">
     <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
@@ -30,6 +31,7 @@
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span> Inicio</a></li>
                     <li><a href="#reseña"><span class="glyphicon glyphicon-bookmark"></span> Reseña</a></li>
+                    <li><a href="#reseña"><span class="glyphicon glyphicon-info-sign"></span> Novedades</a></li>
                     <li><a href="#institucional"><span class="glyphicon glyphicon-tag"></span> Institucional</a></li>
                     <li><a href="#niveles"><span class="glyphicon glyphicon-tower"></span> Nuestros Niveles</a></li>
                     <li><a href="#contacto"><span class="glyphicon glyphicon-phone"></span> Contacto</a></li>
@@ -138,7 +140,10 @@
 <!-- -->
 <br>
 <!--Historia y fundador-->
-     <h1 class="tituloSeparador" id="reseña"><center>Breve Reseña</center></h1>
+
+        <center><h1 class="tituloSeparador shake shake-slow" id="reseña">Breve Reseña</h1></center>
+
+
     <br>
     <div class="container">
         <div class="row">
@@ -173,9 +178,8 @@
         </div>
     </div>
 <!-- -->
-<br>
 <!--Contacto -->
-     <h1 class="tituloSeparador" id="contacto"><center>Contactanos</center></h1>
+     <center><h1 class="tituloSeparador shake shake-slow" id="contacto">Contactanos</h1></center>
     <br>
     <div class="container">
         <div class="row">
@@ -231,8 +235,57 @@
     </div>
 <!-- -->
 <br>
+    <!-- Novedades -->
+     <center><h1 class="tituloSeparador shake shake-slow" id="novedades">Novedades</h1></center>
+    <br>
+    <div class="row">
+        <div class="container">
+            <div class="col-md-6">
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="img/news.png" alt="...">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Titulo de la novedad</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ipsum perspiciatis similique nulla. Veniam quis ipsum recusandae obcaecati, saepe est dolores doloremque explicabo eaque accusantium soluta eligendi, quia blanditiis quidem.</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="img/news.png" alt="...">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Titulo de la novedad</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ipsum perspiciatis similique nulla. Veniam quis ipsum recusandae obcaecati, saepe est dolores doloremque explicabo eaque accusantium soluta eligendi, quia blanditiis quidem.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+               <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="img/news.png" alt="...">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Titulo de la novedad</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ipsum perspiciatis similique nulla. Veniam quis ipsum recusandae obcaecati, saepe est dolores doloremque explicabo eaque accusantium soluta eligendi, quia blanditiis quidem.</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="img/news.png" alt="...">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Titulo de la novedad</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ipsum perspiciatis similique nulla. Veniam quis ipsum recusandae obcaecati, saepe est dolores doloremque explicabo eaque accusantium soluta eligendi, quia blanditiis quidem.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin novedades -->
 <!--Niveles -->
-       <h1 class="tituloSeparador" id="niveles"><center>Nuestros Niveles</center></h1>
+        <br>
+        <center><h1 class="tituloSeparador shake shake-slow" id="niveles">Nuestros Niveles</h1></center>
     <br>
     <div class="container">
         <div class="row">
@@ -245,6 +298,7 @@
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, esse, reiciendis? Recusandae quae, minus cum iusto rerum reprehenderit, dolorum ducimus quia exercitationem mollitia sequi natus aperiam soluta animi rem doloremque....
                         </p>
                         <a href="#" class="btn btn-primary" role="button" data-toggle="modal" data-target="#myModal">Ver mas</a>
+                      <a href="#" class="btn btn-success" role="button" data-toggle="modal" data-target="#equipo">Equipo Docente</a>>
                     </div>
                 </div>
             </div>
@@ -257,6 +311,7 @@
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, esse, reiciendis? Recusandae quae, minus cum iusto rerum reprehenderit, dolorum ducimus quia exercitationem mollitia sequi natus aperiam soluta animi rem doloremque....
                         </p>
                         <a href="#" class="btn btn-primary" role="button" data-toggle="modal" data-target="#myModal">Ver mas</a>
+                       <a href="#" class="btn btn-success" role="button" data-toggle="modal" data-target="#equipo">Equipo Docente</a>
                     </div>
                 </div>
             </div>
@@ -269,6 +324,7 @@
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam accusantium neque aut libero, odit asperiores deserunt sapiente voluptatem! Blanditiis cum repudiandae nesciunt repellendus maxime quas tempore ipsam eligendi alias ullam?...
                         </p>
                         <a href="#" class="btn btn-primary" role="button" data-toggle="modal" data-target="#myModal">Ver mas</a>
+                        <a href="#" class="btn btn-success" role="button" data-toggle="modal" data-target="#equipo">Equipo Docente</a>
                     </div>
                 </div>
             </div>
@@ -281,12 +337,13 @@
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, architecto adipisci animi, amet at quod nostrum officiis facere quas cumque dicta vitae dolor. Modi, veritatis. Blanditiis vero adipisci cum aspernatur....
                         </p>
                         <a href="#" class="btn btn-primary" role="button" data-toggle="modal" data-target="#myModal">Ver mas</a>
+                        <a href="#" class="btn btn-success" role="button" data-toggle="modal" data-target="#equipo">Equipo Docente</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-     <h1 class="tituloSeparador" id="institucional"><center>Institucional</center></h1>
+      <center><h1 class="tituloSeparador shake shake-slow" id="institucional">Institucional</h1></center>
     <br>
     <div class="multimedia">
         <br>
@@ -353,7 +410,39 @@
             </div>
         </div>
     </div>
+<!-- -->
 
+    <!-- Modal de Docentes -->
+    <div class="modal fade" id="equipo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">  Close</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Informacion del nivel seleccionado</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Primario</h3>
+                        </div>
+                        <div class="panel-body">
+                            <dl>
+                                <dt>Directora</dt>
+                                <dd>Nombre de directore</dd>
+                                <br>
+                                <dt>Equipo Docente</dt>
+                                <dd>Nombre de docentes</dd>
+                                <dd>Nombre de docentes</dd>
+                                <dd>Nombre de docentes</dd>
+                                <dd>Nombre de docentes</dd>
+                                <dd>Nombre de docentes</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 <!-- -->
 <!--Scripts -->
     <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
