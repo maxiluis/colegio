@@ -2,7 +2,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title></title>
+    <title>:: Instituto San José ::</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -11,8 +11,9 @@
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css">
     <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Kalam' rel='stylesheet' type='text/css'>
 </head>
-<body>
+<body data-spy="scroll" data-target=".nav navbar-nav">
 <!-- Barra -->
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -23,24 +24,22 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Instituto San Jose</a>
+                <a class="navbar-brand" href="index.html">Instituto San Jose</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="#"><span class="glyphicon glyphicon-bookmark"></span>Historia</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-tag"></span>Institucional</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-tower"></span>Inicial</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-tower"></span>Primario</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-tower"></span>Secundario</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-tower"></span>Terciario</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-phone"></span>Contacto</a></li>
+                    <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span> Inicio</a></li>
+                    <li><a href="#reseña"><span class="glyphicon glyphicon-bookmark"></span> Reseña</a></li>
+                    <li><a href="#institucional"><span class="glyphicon glyphicon-tag"></span> Institucional</a></li>
+                    <li><a href="#niveles"><span class="glyphicon glyphicon-tower"></span> Nuestros Niveles</a></li>
+                    <li><a href="#contacto"><span class="glyphicon glyphicon-phone"></span> Contacto</a></li>
                 </ul>
                 <form class="navbar-form navbar-right" role="form">
                     <div class="form-group">
                         <input type="text" placeholder="Busqueda" class="form-control">
                     </div>
                     <button type="submit" class="btn btn-success"></span>
-                        Buscar
+                        <span class="glyphicon glyphicon-search"></span>
                     </button>
                 </form>
             </div><!--/.navbar-collapse -->
@@ -49,7 +48,8 @@
 <!-- -->
 <br>
 <!-- Carousel -->
-    <div class="container">
+
+        <div class="container">
         <section id="miSlide" class="carousel slide">
             <ol class="carousel-indicators">
                 <li data-target="#miSlide" data-slide-to="0" class="active"></li>
@@ -98,7 +98,8 @@
             <a href="#miSlide" class="left carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
             <a href="#miSlide" class="right carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-right"></span></a>
         </section>
-    </div>
+        </div>
+
 <!-- -->
 <br>
 <!--Generando ideas-->
@@ -108,63 +109,65 @@
                 <center><h2 class="textBody">Generando Ideas</h2></center>
                 <center><img src="img/idea.png" alt=""></center>
                 <p>
-                    Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+                    Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismDonec   sed odio dui.
+                </p>
+                </div>
+            <div class="col-md-3">
+                <center><h2 class="textBody">Heading</h2></center>
+                <center><img src="img/book.png" alt=""></center>
+                <p>
+                    Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum    nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Dosed odio dui.
                 </p>
             </div>
-        <div class="col-md-3">
-            <center><h2 class="textBody">Heading</h2></center>
-            <center><img src="img/book.png" alt=""></center>
-            <p>
-                Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-            </p>
-        </div>
-        <div class="col-md-3">
-            <center><h2 class="textBody">Heading</h2></center>
-            <center><img src="img/graduated.png" alt=""></center>
-            <p>
-                Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-            </p>
-        </div>
-        <div class="col-md-3">
-            <center><h2 class="textBody">Heading</h2></center>
-            <center><img src="img/education.png" alt=""></center>
-            <p>
-                Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-            </p>
+            <div class="col-md-3">
+                <center><h2 class="textBody">Heading</h2></center>
+                <center><img src="img/graduated.png" alt=""></center>
+                <p>
+                    Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa jusit     amet risus.
+                </p>
+            </div>
+            <div class="col-md-3">
+                <center><h2 class="textBody">Heading</h2></center>
+                <center><img src="img/education.png" alt=""></center>
+                <p>
+                    Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa jusit     amet risus.
+                </p>
+            </div>
         </div>
     </div>
 <!-- -->
 <br>
 <!--Historia y fundador-->
-    <div class="alert alert-info" role="alert">
-        <h1>Institucion</h1>
-    </div>
-    <div class="row">
-        <div class="col-md-7">
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="img/paraiso.jpg" alt="Imagen" class="img-thumbnail">
+     <h1 class="tituloSeparador" id="reseña"><center>Breve Reseña</center></h1>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="img/paraiso.jpg" alt="Imagen" class="img-thumbnail">
+                    </div>
+                    <div class="col-md-8">
+                        <h2 class="textBody">Nuestra Historia</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel quasi atque incidunt sed iusto quo tenetur,    assumenda ducimus harum voluptates non accusantium beatae quas laudantium perferendis. Et ex totam officiis.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel quasi atque incidunt sed iusto quo tenetur,    assumenda ducimus harum voluptates non accusantium beatae quas laudantium perferendis. Et ex totam officiis.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel quasi atque incidunt sed iusto quo tenetur,    assumenda ducimus harum voluptates non accusantium beatae quas laudantium perferendis. Et ex totam officiis.</p>
+                    </div>
+                    <blockquote>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                    </blockquote>
                 </div>
-                <div class="col-md-8">
-                    <h2 class="textBody">Nuestra Historia</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel quasi atque incidunt sed iusto quo tenetur, assumenda ducimus harum voluptates non accusantium beatae quas laudantium perferendis. Et ex totam officiis.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel quasi atque incidunt sed iusto quo tenetur, assumenda ducimus harum voluptates non accusantium beatae quas laudantium perferendis. Et ex totam officiis.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel quasi atque incidunt sed iusto quo tenetur, assumenda ducimus harum voluptates non accusantium beatae quas laudantium perferendis. Et ex totam officiis.</p>
-                </div>
-                <blockquote>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                </blockquote>
             </div>
-        </div>
-        <div class="col-md-5">
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="img/fundador.jpg" alt="" class="img-thumbnail">
-                </div>
-                <div class="col-md-8">
-                    <h2 class="textBody">Fundador</h2>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima saepe officiis, cum minus beatae iure dolorum at enim laborum quis assumenda totam commodi voluptate, optio a dignissimos et sapiente. Fuga.</p>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima saepe officiis, cum minus beatae iure dolorum at enim laborum quis assumenda totam commodi voluptate, optio a dignissimos et sapiente. Fuga.</p>
+            <div class="col-md-5">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="img/fundador.jpg" alt="" class="img-thumbnail">
+                    </div>
+                    <div class="col-md-8">
+                        <h2 class="textBody">Fundador</h2>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima saepe officiis, cum minus beatae iure  dolorum at enim laborum quis assumenda totam commodi voluptate, optio a dignissimos et sapiente. Fuga.</p>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima saepe officiis, cum minus beatae iure  dolorum at enim laborum quis assumenda totam commodi voluptate, optio a dignissimos et sapiente. Fuga.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -172,10 +175,10 @@
 <!-- -->
 <br>
 <!--Contacto -->
-    <div class="alert alert-info" role="alert">
-        <h1>Contacto</h1>
-    </div>
-    <div class="row">
+     <h1 class="tituloSeparador" id="contacto"><center>Contactanos</center></h1>
+    <br>
+    <div class="container">
+        <div class="row">
         <div class="col-md-7">
             <form role="form">
                 <div class="form-group">
@@ -197,40 +200,39 @@
             <button type="button" class="btn btn-info btn-lg btn-block" id="primaria">Nivel Primario</button>
             <div class="infoPrimario">
                 <address>
-                    <strong>Twitter, Inc.</strong><br>
-                    795 Folsom Ave, Suite 600<br>
+                    <strong>Nivel Primario</strong><br>
+                    795 San Jose<br>
                     San Francisco, CA 94107<br>
-                    <abbr title="Phone">P:</abbr> (123) 456-7890
+                    <abbr title="Phone">P:</abbr> 12378123
                 </address>
             </div>
             <br>
             <button type="button" class="btn btn-info btn-lg btn-block" id="secundario">Nivel Secundario</button>
             <div class="infoSecundario">
                 <address>
-                    <strong>Twitter, Inc.</strong><br>
-                    795 Folsom Ave, Suite 600<br>
+                     <strong>Nivel Primario</strong><br>
+                    795 San Jose<br>
                     San Francisco, CA 94107<br>
-                    <abbr title="Phone">P:</abbr> (123) 456-7890
+                    <abbr title="Phone">P:</abbr> 12378123
                 </address>
             </div>
             <br>
             <button type="button" class="btn btn-info btn-lg btn-block" id="terciario">Nivel Terciario</button>
             <div class="infoTerciario">
                 <address>
-                    <strong>Twitter, Inc.</strong><br>
-                    795 Folsom Ave, Suite 600<br>
+                    <strong>Nivel Primario</strong><br>
+                    795 San Jose<br>
                     San Francisco, CA 94107<br>
-                    <abbr title="Phone">P:</abbr> (123) 456-7890
+                    <abbr title="Phone">P:</abbr> 12378123
                 </address>
             </div>
+        </div>
         </div>
     </div>
 <!-- -->
 <br>
 <!--Niveles -->
-    <div class="alert alert-info" role="alert">
-        <h1>Niveles</h1>
-    </div>
+       <h1 class="tituloSeparador" id="niveles"><center>Nuestros Niveles</center></h1>
     <br>
     <div class="container">
         <div class="row">
@@ -284,7 +286,10 @@
             </div>
         </div>
     </div>
+     <h1 class="tituloSeparador" id="institucional"><center>Institucional</center></h1>
+    <br>
     <div class="multimedia">
+        <br>
         <section>
             <div class="container">
                 <div class="row">
@@ -301,14 +306,31 @@
                 </div>
             </div>
         </section>
+        <br>
     </div>
 <!-- !-->
+
 <hr>
-    <footer class="fin">
-        <p>&copy; Instituto San Jose - Quines - San Luis - Argentina</p>
-        <p><a href="">Volver arriba</a></p>
-    </footer>
-</div>
+    <div class="footer">
+        <div class="container">
+        <footer class="fin">
+            <div class="row">
+                <div class="col-md-4">
+                    <p><span class="glyphicon glyphicon-home"></span><a href="index.html"> Inicio</a></p>
+                    <p><span class="glyphicon glyphicon-link"></span> Frase decorativa</p>
+                </div>
+                <div class="col-md-4">
+                    <p>&copy; Instituto San Jose - Quines - San Luis - Argentina</p>
+                    <p><span class="glyphicon glyphicon-share-alt"></span> Email: info@info.com</p>
+                </div>
+                <div class="col-md-4">
+                    <p><span class="glyphicon glyphicon-tag"></span> Developed by Maxi Rivero</p>
+                    <p><span class="glyphicon glyphicon-share-alt"></span> Contacto: info@developed.com</p>
+                </div>
+            </div>
+        </footer>
+        </div>
+    </div>
 <!-- Modal -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">

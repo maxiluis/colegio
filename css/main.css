@@ -13,8 +13,14 @@
 	font-family: 'Pacifico', cursive;
 }
 .separador{
-	height: 50px;
-	background-color: red;
+	height: 70px;
+	width: 100%;
+	background-color: #F7F389;
+	padding-top: 1px;
+}
+.tituloSeparador{
+	font-family: 'Kalam', cursive;
+	font-size: 70px;
 }
 
 body{
@@ -28,15 +34,19 @@ body{
 	bottom:185px;
 	right:0px;
 }
-.multimesdia{
+.multimedia{
 	background-color: #e6e6e6;
 }
 .fin7{
 	background-color:#339966;
 }
-
-
-
+.footear{
+	background-color: black;
+	color:white;
+}
+.activo{
+	color: white;
+}
 
 
 
